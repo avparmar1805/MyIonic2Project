@@ -9,6 +9,7 @@ import { FabPage } from "../pages/fab/fab";
 import { InputPage } from "../pages/input/input";
 import { ThumbnailListPage } from "../pages/list/list";
 import { SlidesPage } from "../pages/slides/slides";
+import { AlertsPage } from "../pages/alerts/alerts";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SlidesPage } from "../pages/slides/slides";
     FabPage,
     InputPage,
     ThumbnailListPage,
-    SlidesPage
+    SlidesPage,
+    AlertsPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -35,7 +37,8 @@ import { SlidesPage } from "../pages/slides/slides";
     FabPage,
     InputPage,
     ThumbnailListPage,
-    SlidesPage
+    SlidesPage,
+    AlertsPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

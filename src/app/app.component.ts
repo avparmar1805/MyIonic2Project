@@ -11,6 +11,7 @@ import { FabPage } from "../pages/fab/fab";
 import { InputPage } from "../pages/input/input";
 import { ThumbnailListPage } from "../pages/list/list";
 import { SlidesPage } from "../pages/slides/slides";
+import { AlertsPage } from "../pages/alerts/alerts";
 
 @Component({
   templateUrl: 'app.html'
@@ -35,8 +36,9 @@ export class MyApp {
       { title: 'Cards', component: CardsPage },
       { title: 'FAB', component: FabPage },
       { title: 'Input', component: InputPage },
-      { title: 'List', component: ThumbnailListPage },    
-      { title: 'Slides', component: SlidesPage }
+      { title: 'List', component: ThumbnailListPage },
+      { title: 'Slides', component: SlidesPage },
+      { title: 'Alerts', component: AlertsPage }
     ];
   }
 
